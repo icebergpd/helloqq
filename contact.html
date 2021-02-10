@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/d108ce6616.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="container">
+        <a href="index.html" class="link-brend"><i class="fas fa-globe"></i></a>
+        <div class="navbar-nav">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- Главная страница -->
+    <main>
+      <!-- Главная секция -->
+      <section
+        class="hero hero-sm"
+        style="background-image: url('img/bg-contact.jpg')"
+      >
+        <div class="container">
+          <h1>Contact Us</h1>
+        </div>
+      </section>
+
+      <!-- Форма -->
+      <section class="section-padding">
+          <div class="container">
+            <div class="form-block">
+                <div class="form-block-contact">
+                    <form class="form-layout" method="POST" data-netlify="true" name="contact" netlify>
+                        <div class="form-col-50">
+                            <label for="contact-name">Введите имя</label>
+                                <input type="text" class="form-text" name="name" id="name" required>
+                            </label>
+                        </div>
+                        <div class="form-col-50">
+                            <label for="contact-email">Введите почту</label>
+                                <input type="email" class="form-text" name="email" id="email" required>
+                            </label>
+                        </div>
+                        <div class="form-col">
+                            <label for="contact-message">Введите сообщение</label>
+                                <textarea class="form-text" name="message" id="message" rows="4" required></textarea>
+                            </label>
+                        </div>
+                        <div class="form-col">
+                            <button class="btn btn-primary" type="submit">
+                              Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-block-text">
+                    <div class="text-right">
+                        <p class="lead">Email: <a href="mailto:webdev@gmail.com">webdev@gmail.com</a></p>
+                        <p class="lead">Phone: <a href="tel:+9222323322">+ 999 23 23 322</a></p>
+            <br>
+            <p class="lead">Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days.</p>
+            <p class="lead">We are open from 9am — 5pm week days.</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-text">Все права защищены!</div>
+        <div class="footer-icons">
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-vk"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
